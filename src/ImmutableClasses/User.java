@@ -9,6 +9,7 @@ public class User {
         this.age = age;
     }
 
+//    A constructor of copy should be present or Cloneable interface implemented
     public User(User user) {
         this.name = user.name;
         this.age = user.age;
