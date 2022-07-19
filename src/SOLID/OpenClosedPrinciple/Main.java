@@ -1,6 +1,6 @@
 package SOLID.OpenClosedPrinciple;
 
-import SOLID.OpenClosedPrinciple.OrderProcessors.OrderProcessorWithPreAndPostProcessing;
+import SOLID.OpenClosedPrinciple.CustomOrderProcessors.OrderProcessorWithPreAndPostProcessing;
 import SOLID.SingleResponsibilityPrinciple.Entities.Order;
 
 public class Main {

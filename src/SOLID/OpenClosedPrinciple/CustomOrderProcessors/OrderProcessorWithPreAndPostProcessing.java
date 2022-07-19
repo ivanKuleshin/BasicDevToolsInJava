@@ -1,4 +1,4 @@
-package SOLID.OpenClosedPrinciple.OrderProcessors;
+package SOLID.OpenClosedPrinciple.CustomOrderProcessors;
 
 import SOLID.SingleResponsibilityPrinciple.Entities.Order;
 import SOLID.SingleResponsibilityPrinciple.OrderProcessors.GoodOrderProcessor;

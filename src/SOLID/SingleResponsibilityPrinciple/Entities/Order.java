@@ -1,10 +1,22 @@
 package SOLID.SingleResponsibilityPrinciple.Entities;
 
+import java.util.List;
+
 public class Order {
     private long orderNumber;
     private double price;
     private String recipientName;
     private final String email;
+
+    public List<String> getItems() {
+        return items;
+    }
+
+    public void setItems(List<String> items) {
+        this.items = items;
+    }
+
+    private List<String> items;
 
     public Order(long number, double price, String recipientName, String email) {
         this.orderNumber = number;
