@@ -13,7 +13,9 @@ public class Main {
           окружения.
          */
         dialog = DialogFactory.getDialog(getRandomType());
+        runBusinessLogic();
 
+        dialog = DialogFactory.getDialog(OperatingSystemType.getType("IOS"));
         runBusinessLogic();
     }
 
