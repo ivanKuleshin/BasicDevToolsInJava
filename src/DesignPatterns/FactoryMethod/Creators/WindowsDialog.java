@@ -8,4 +8,12 @@ public class WindowsDialog extends Dialog {
     Button createButton() {
         return new WindowsButton();
     }
+
+    @Override
+    public void renderWindow() {
+        Button button = createButton();
+        button.render();
+        System.out.println("Different logic of window rendering...");
+        button.onClick();
+    }
 }
